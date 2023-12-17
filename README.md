@@ -38,6 +38,7 @@ conda install pytorch=2.0.0 torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
 python .\utils\check_gpu_status.py
 
 # Install external code libraries
+# pip install gym error: https://github.com/linyiLYi/snake-ai/issues/13
 pip install -r requirements.txt
 ```
 
